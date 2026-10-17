@@ -1,12 +1,14 @@
 # Deck keyboard firmware backup  
-Mainly for Deck Francium and Hassium,if you have frigate or others firmware welcome to report.  
+Mainly for Deck Francium and Hassium,if you have frigate or others firmware welcome to add.  
+This project only restore firmware,please use HY USB Firmware Downloader to flash (Some firmwares needs specific version)  
+
 All firmwares from:
 1. www.deckkeyboards.co.kr  
 2. www.deckkeyboards.com
 3. www.deckkeyboards.cn
 
 ## List
-From www.deckkeyboards.co.kr:
+### From www.deckkeyboards.co.kr:  
 | Firmware-Name | Keyboard-model | TIP
 | --- | --- | --- |
 | `(87P)L2227V351.bin` | Deck Francium Pro (87P) | F11,F12 Normal firmware |
@@ -26,20 +28,19 @@ From www.deckkeyboards.co.kr:
 | `L2504V24.bin` | 108S (108S Deck Mantella RGB) | Rhythm Game firmware |
 | `L2039V38(1).bin` | From CBL-87P-240102.zip,Rhythm Game firmware |
 
-From www.deckkeyboards.com:
-
+### From www.deckkeyboards.com:  
 | Firmware-Name | Keyboard-model |
+| --- | --- |
 | `L2227V35 (1).bin` | Francium Pro CBL87P |
 | `L1983V36.bin` | Hassium Pro CBL108P |
 | `L2226V28.bin` | Francium Standard CBL87 |
 | `L2086V34.bin` | Hassium Standard CBL108 |
 
-Chinese version will add soon.
+### Edit Firmware:  
+Due to my own need,@Tkiliay help me edit these firmware for Deck Francium Pro (87P)  
 
-Edit Firmware:  
-Due to my own need,@Tkiliay help me edit these firmware for Deck Francium Pro (87P)
 2_nkro-original.bin:
-1. Add back NKRO mode switch (use FN + F10),based on `(87P)L2227V351.bin`
+1. Add back NKRO mode switch (use FN + F10),based on `(87P)L2227V351.bin`  
 
 2_nkro2.bin (based on `(87P)L2227V351.bin`):
 1. Set NKRO mode by default
